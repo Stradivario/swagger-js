@@ -14,7 +14,7 @@
     "type": "git",
     "url": "https://github.com/swagger-api/swagger-js.git"
   },
-  "main": "index.js",
+  "main": "browser/swagger-client.min.js",
   "scripts": {
     "build": "gulp build",
     "dev": "gulp watch",
