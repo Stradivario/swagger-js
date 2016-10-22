@@ -4345,7 +4345,7 @@ Operation.prototype.execute = function (arg1, arg2, arg3, arg4, parent) {
   var obj = {
     url: url,
     method: this.method.toUpperCase(),
-    body: body,
+    body: arg,
     enableCookies: opts.enableCookies,
     useJQuery: opts.useJQuery,
     jqueryAjaxCache: opts.jqueryAjaxCache,
